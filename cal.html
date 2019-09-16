@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/cal.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Simple calculator</h1>
+
+        </div>
+        <div class="input">
+            <p><span class="a">0</span><span class="b"> </span><span class="c">0</span><span class="=">=</span><span class="d">0</span></p>
+
+        </div>
+        <div class="buttons">
+        <div class="numbers">
+            <button class="number" onclick="show(9)">9</button>
+            <button class="number" onclick="show(8)">8</button>
+            <button class="number" onclick="show(7)">7</button>
+            <br/>
+            <button class="number" onclick="show(6)">6</button>
+            <button class="number" onclick="show(5)">5</button>
+            <button class="number" onclick="show(4)">4</button>
+            <br/>
+            <button class="number" onclick="show(3)">3</button>
+            <button class="number" onclick="show(2)">2</button>
+            <button class="number" onclick="show(1)">1</button><br/>
+            <button class="number" onclick="show(0)">0</button>
+            <button>d</button>
+            <button>s</button>
+            
+            
+                   
+           
+
+        </div>
+        
+           
+            
+                    
+        <div class="symbols">
+            <button class="symbol" onclick="symbolInit('+')">+</button>
+            <button class="symbol" onclick="symbolInit('-')">-</button>
+            <button class="symbol" onclick="symbolInit('*')">*</button>
+            <br/>
+            <button class="symbol" onclick="symbolInit('/')">/</button>
+            <button class="symbol" onclick="reset()">c</button>
+            <button class="symbol" onclick="result('=')">=</button>
+            
+        </div>
+    </div>
+        
+    </div>
+
+ <script src="js/cal.js"></script>   
+</body>
+</html>
